@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data;
 using System.Data.OleDb;
+using System.Data.SqlClient;
 
 
 namespace PryDamonteConexionBD2
@@ -45,5 +46,18 @@ namespace PryDamonteConexionBD2
             }
 
         }
+
+        //public void AgregarProductos(Productos nuevoProducto)
+        //{
+        //    string insertQuery = "INSERT INTO Productos (Nombre, Descripcion, Precio, Stock, CategoriaId) VALUES (@nombre, @descripcion, @precio, @stock, @categoriaId)";
+        //    SqlCommand cmd = new SqlCommand(insertQuery, conn);
+        //    cmd.Parameters.AddWithValue("@nombre", "Mouse inalámbrico");
+        //    cmd.Parameters.AddWithValue("@descripcion", "Mouse óptico USB");
+        //    cmd.Parameters.AddWithValue("@precio", 150000);
+        //    cmd.Parameters.AddWithValue("@stock", 20);
+        //    cmd.Parameters.AddWithValue("@categoriaId", 1); // Tecnología
+        //    cmd.ExecuteNonQuery();
+
+        //}
     }
 }
