@@ -16,5 +16,11 @@ namespace PryDamonteConexionBD2
         {
             InitializeComponent();
         }
+
+        private void BtnMostrar_Click(object sender, EventArgs e)
+        {
+            ClsConexionBD conexion = new ClsConexionBD();
+            conexion.ListarDatos(dgvDatos);
+        }
     }
 }

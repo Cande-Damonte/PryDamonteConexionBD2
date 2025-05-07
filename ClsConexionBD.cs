@@ -20,7 +20,7 @@ namespace PryDamonteConexionBD2
 
         public ClsConexionBD()
         {
-            cadena = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source = Database1.accdb";
+            cadena = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\cande\\source\\repos\\PryDamonteConexionBD2\\bin\\Debug\\Comercio-Lab3.accdb;Persist Security Info=False;";
         }
         public void ListarDatos(DataGridView DgvDatos)
         {
